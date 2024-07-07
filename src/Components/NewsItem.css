@@ -1,0 +1,26 @@
+.news-item {
+  max-width: 345px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.news-item img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.read-more {
+  background-color: transparent;
+  border: 1px solid #007bff;
+  color: #007bff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.read-more:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}

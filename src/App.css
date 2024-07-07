@@ -1,0 +1,21 @@
+body {
+  scroll-behavior: smooth;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode .navbar {
+  background-color: #333333;
+}
+
+.dark-mode .news-item {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.dark-mode .footer {
+  background-color: #333333;
+}
