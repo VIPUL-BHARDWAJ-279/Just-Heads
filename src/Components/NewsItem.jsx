@@ -1,6 +1,6 @@
-import React from 'react'
-import defaultNewsImage from '../assets/my_news_image.jpg'
-import './NewsItem.css';
+import React from "react";
+import defaultNewsImage from "../assets/my_news_image.jpg";
+import "./NewsItem.css";
 
 const NewsItem = ({ title, description, src, url }) => {
   return (
@@ -8,10 +8,12 @@ const NewsItem = ({ title, description, src, url }) => {
       <img src={src ? src : defaultNewsImage} className="card-img-top" alt="News" />
       <div className="card-body">
         <h5 className="card-title">{title}</h5>
-        <a href={url} className="btn btn-primary read-more">Read more</a>
+        <a href={url} className="btn btn-success read-more">
+          Read more
+        </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default NewsItem
+export default NewsItem;
